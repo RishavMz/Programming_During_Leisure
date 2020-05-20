@@ -15,7 +15,7 @@ PADDLE_HEIGHT = 20
 PADDLE_WIDTH = 50
 BALL_RADIUS = 10
 paddle_width = 20
-paddle1_speed = 30
+paddle1_speed = 50
 paddle1_posx = 10
 paddle1_posy = HEIGHT//2
 paddle2_posx = 770
@@ -101,8 +101,7 @@ paddle1 = Paddle(table1, paddle1_posx, paddle1_posy, paddle_height, paddle_width
 paddle2 = Paddle(table1, paddle2_posx, paddle2_posy, paddle_height, paddle_width)
 ball1 = Ball(ball_posx, ball_posy, BALL_RADIUS, table1, paddle1,paddle2)
 Table_name="Pong(Simplified)"
-run = True
-while run:
+while True:
     table1.draw(Table_name)
     paddle1.draw()
     paddle2.draw()
