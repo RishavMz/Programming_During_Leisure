@@ -1,13 +1,14 @@
 import pygame
 import random
+import math
 
 RADIUS = 5
 BALLS = []
-BALL_COUNT = 25
+BALL_COUNT = 50
 WIDTH = 500
 HEIGHT = 500
 NAME = "Swarm"
-CLOSEST = 3
+CLOSEST = 10
 
 def rand(a,b):
     return int(random.randrange(a,b))
@@ -36,11 +37,8 @@ class ball:
 
     def donthit(self,ball2):
         global CLOSEST
-        if(abs((self.posx + self.velx) - (ball2.posx + ball2.posx))<CLOSEST):
-            if(self.posx>20 and self.posx<480):
+        if(math.sqrt((self.posx-ball2.posx)**2 + (self.posy-ball2.posy)**2)<CLOSEST):
                 self.velx = - self.velx    
-        if(abs((self.posy + self.vely) - (ball2.posy + ball2.posy))<CLOSEST):
-            if(self.posy>20 and self.posy<480):
                 self.vely = - self.vely
 
 
@@ -74,7 +72,10 @@ while(run):
         BALLS[i].move()
     for i in range(BALL_COUNT):
         for j in range(BALL_COUNT):
-            BALLS[i].donthit(BALLS[j])  
+            if(i==j):
+                pass
+            else:
+                BALLS[i].donthit(BALLS[j])  
 
     pygame.display.update()
 pygame.QUIT    
