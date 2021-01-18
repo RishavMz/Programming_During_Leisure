@@ -3,7 +3,7 @@ import random
 
 RADIUS = 5
 BALLS = []
-BALL_COUNT = 10
+BALL_COUNT = 100
 WIDTH = 500
 HEIGHT = 500
 NAME = "Swarm"

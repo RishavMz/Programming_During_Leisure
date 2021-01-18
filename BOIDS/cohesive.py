@@ -4,8 +4,8 @@ import random
 RADIUS = 5
 BALLS = []
 BALL_COUNT = 30
-WIDTH = 500
-HEIGHT = 500
+WIDTH = 700
+HEIGHT = 700
 NAME = "Swarm"
 
 def rand(a,b):
@@ -13,8 +13,8 @@ def rand(a,b):
 
 class ball:
     def __init__(self,radius,table):
-        self.posx = rand(100,400)
-        self.posy = rand(100,400)
+        self.posx = rand(100,600)
+        self.posy = rand(100,600)
         self.velx = 0
         self.vely = 0
         self.radius = radius
@@ -50,13 +50,13 @@ class ball:
 
     def cohesion(self,comx,comy):
         if(self.posx>comx):
-            self.accx = -0.05
+            self.accx = -0.01
         else:
-            self.accx = 0.05
+            self.accx = 0.01
         if(self.posy>comy):
-            self.accy = -0.05
+            self.accy = -0.01
         else:
-            self.accy = -0.05      
+            self.accy = 0.01     
 
 class table:
     def __init__(self,height,width):
