@@ -1,6 +1,6 @@
 #
 
-template.cpp => S cudtom templste made by me for ease of coding curing competitions while using C++
+template.cpp => A custom template made by me for ease of coding competitions while using C++
 
 ###
 
