@@ -4,13 +4,15 @@ template.cpp => A custom template made by me for ease of coding competitions whi
 
 ###
 
-The following are proofs (According to me) , that Competitive programming is not about a particular language , some selected topics , or that questions which would only be solved if the topic is taught.
 #
-Insted, In my opinion, Competitve programming is a sport, and each question is a puzzle, which is to be solved. It does not matter whether you have learnt about the topic in school or college, or whether you are from CS background or not, If you think hard and kindle the flame of your mighty brain to hunt for a possible solution to the puzzle, then you would surely be able to solve the problem. 
-#
-Okay, enough of philosophy, lets get started...
 
+## Few resources which people have been asking me for everytime, here they are:
 
+1. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Best Language for Programming</a>
+2. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">How I find out why a code is giving a Wrong Answer</a>
+3. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">How to implement a problem which I think I know somewhat the approach</a>
+4. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Which is best editor/ OS for programming </a>
+5. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">How to increase rating exponentially</a>
 
 
 # AC on python but unable to solve on C++
