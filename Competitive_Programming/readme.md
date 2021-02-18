@@ -6,7 +6,7 @@ template.cpp => A custom template made by me for ease of coding competitions whi
 
 #
 
-## Few resources which people have been asking me for everytime, here they are:
+## Few resources which people have been asking me for, here they are finally:
 
 1. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Best Language for Programming</a>
 2. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">How I find out why a code is giving a Wrong Answer</a>
