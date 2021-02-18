@@ -15,12 +15,12 @@ template.cpp => A custom template made by me for ease of coding competitions whi
 5. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">How to increase rating exponentially</a>
 
 
-# AC on python but unable to solve on C++
+### AC on python but unable to solve on C++
 
 1.  https://codeforces.com/contest/1392/problem/C
 Reason : Size Overflow in C++ .
 
 
 
-# AC on C++ but TLE in python
+### AC on C++ but TLE in python
 
