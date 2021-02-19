@@ -5,7 +5,7 @@ template.cpp => A custom template made by me for ease of coding competitions whi
 ###
 
 #
-## Resources:
+## Resources for learning:
 
 1. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">codeforces .com/blog/entry/57282</a>
 2. <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">codeforces .com/blog/entry/67679</a>
