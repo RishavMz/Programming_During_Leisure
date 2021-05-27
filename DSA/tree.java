@@ -106,6 +106,32 @@ class BinarySearchTree extends BNode
         System.out.print(n.data + " ");
     }
 
+    void reverse(BNode n)
+    {
+        BNode temp = new BNode();
+        if(n.left != null && n.right != null)
+        {
+            temp = n.left;
+            n.left = n.right;
+            n.right = temp;
+            reverse(n.left);
+            reverse(n.right);
+        }
+        else if(temp.left == null && temp.right != null)
+        {
+            temp.left = temp.right;
+            temp.right = null;
+            reverse(n.left);
+        }
+        else if(temp.right == null && temp.left != null)
+        {
+            temp.right = temp.left;
+            temp.left = null;
+            reverse(n.left);
+        }
+        
+    }
+
 
     public static void main(String args[])
     {
@@ -124,5 +150,8 @@ class BinarySearchTree extends BNode
         System.out.println("In order");
         btree.postorder(btree.root);
         System.out.println("Post order");
+        System.out.println("Reversed inorder");
+        btree.reverse(btree.root);
+        btree.inorder(btree.root);
     }
 }
